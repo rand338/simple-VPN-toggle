@@ -22,7 +22,7 @@ Small Bash helper to toggle a NetworkManager VPN connection (e.g., WireGuard) vi
 
 2. Make it executable:
 ```bash
-   chmod +x vpn
+chmod +x vpn
 ```
 
 3. (Optional) Move it into your PATH:
