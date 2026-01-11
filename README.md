@@ -34,7 +34,6 @@ Small Bash helper to toggle a NetworkManager VPN connection (e.g., WireGuard) vi
 sudo mv vpn /usr/local/bin/vpn
 ```
 
-
 ## Configuration
 
 Edit the script and set the connection name:
@@ -52,7 +51,6 @@ The name must match exactly what `nmcli connection show` reports.
 ./vpn down
 ```
 
-
 ### Examples
 
 Bring the VPN up:
@@ -67,10 +65,6 @@ Bring the VPN down:
 ./vpn down
 ```
 
-
 ## Notes on permissions
-
 NetworkManager connections are often system-wide and require admin privileges to activate/deactivate.
 This script can convert the connection to a user-owned connection by setting `connection.permissions` to the current user (prompted on demand).
-
-```
