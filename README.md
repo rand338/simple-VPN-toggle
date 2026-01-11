@@ -1,6 +1,3 @@
-## README.md 
-
-```markdown
 # nmcli-vpn-toggle
 
 Small Bash helper to toggle a NetworkManager VPN connection (e.g., WireGuard) via `nmcli`. 
@@ -18,7 +15,6 @@ Small Bash helper to toggle a NetworkManager VPN connection (e.g., WireGuard) vi
 - Linux with NetworkManager
 - `nmcli` available
 - A configured NetworkManager VPN connection name (example: `<vpn connection name>`) 
-```
 
 ## Installation
 
